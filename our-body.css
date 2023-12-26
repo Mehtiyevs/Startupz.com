@@ -1,0 +1,50 @@
+.our-title {
+    color: #3D4F5C;
+    font-family: Circular Std;
+    display: flex;
+
+    justify-content: center;
+}
+
+.our-body {
+    padding-top: 100px;
+    
+}
+
+.grid-box {
+    display: grid;
+    
+    width: 1170px;
+    margin-left: 100px;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+
+.box-one {
+    height: 510px;
+    border-radius: 30px;
+    box-shadow: 0px 8px 35px 0px #BBA98E26;
+
+}
+
+.grid-button {
+    color: #46B8C8;
+    border-color: #46B8C8;
+    border-style: solid;
+    
+    font-family: Circular Std;
+    font-weight: bold;
+    padding-top: 10px;
+    
+    padding-bottom: 10px;
+    margin-top: 25px;
+    background-color: white;
+    
+    padding-left: 25px;
+    padding-right: 25px;
+    
+    margin-left: 253px;
+    border-radius: 30px;
+}

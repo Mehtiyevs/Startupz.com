@@ -1,0 +1,87 @@
+@font-face {
+    font-family: "Circular Std";
+    src: url("Circular\ Std\ Medium\ 500.ttf");
+}
+
+
+
+.header {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    
+}
+.right {
+    display: flex;
+    margin-left: 70px;    
+}
+
+.name {
+    font-family: Circular Std;
+    font-size: 40px; 
+    position: relative;
+    left: -19px;   
+}
+
+.domain {
+    font-size: 25px;
+}
+
+.logo-box {
+    width: 60px;
+    height: 25px;
+    position: relative;
+    top: -2px;
+    
+}
+.logo {
+    width: 100%;
+
+}
+
+.strups,
+.contact {
+    border: none;
+    background-color: white;
+   
+    font-family: Circular Std;
+    color: #3D4F5C;
+    font-size: 15px;
+    
+    
+}
+
+.work {
+    border-radius: 15px;
+    border-width: 1px;
+   
+    border-color: #46B8C8;
+    color: #46B8C8;
+    border-style: solid;
+   
+    background-color: white;
+    font-family: Circular Std;
+    font-size: 15px;
+
+    padding-left: 14px;
+    padding-right: 14px;
+   
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+
+.header-buttons {
+    margin-right: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+

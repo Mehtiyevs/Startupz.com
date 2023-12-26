@@ -1,0 +1,36 @@
+.hiring-body {
+    height: 350px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #FBFAFA;
+}
+
+.hiring-box {
+    height: 300px;
+    margin-top: 35px;
+}
+
+
+.current-button {
+    margin-left: 100px; 
+    margin-top: 10px;
+
+    
+    background-color: #46B8C8;
+    color: white;
+    border: none;
+
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 30px;
+
+    font-family: Circular Std;
+    
+}

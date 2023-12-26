@@ -1,0 +1,25 @@
+.footer {
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+.right-footer {
+    height: 200px;
+    position: relative;
+}
+
+.credits {
+    font-family: Circular Std;
+    color: #939393;
+ 
+    width: 140px;
+    line-height: 25px;
+ 
+    position: absolute;
+    bottom: 40px;
+    margin-left: 20px;   
+}

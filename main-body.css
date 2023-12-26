@@ -1,0 +1,54 @@
+
+.main-body {
+    margin-top: 90px;
+    height: 510px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.alltext-box {
+    font-family: Circular Std;
+}
+
+
+.we-create {
+    color:#3D4F5C;
+    font-size: 50px;
+    margin-bottom: 10px;
+    
+    width: 250px;
+    position: absolute;
+    left: 100px;
+}
+
+.we-are {
+    color: #FB8958;
+    font-size: 20px;
+    
+    position: relative;
+    left: 100px;
+    top: 150px;    
+}
+
+.see-works {
+    position: absolute;
+    bottom: 240px;
+    left: 100px;
+
+    color: white;
+    background-color: #46B8C8;
+    border: none;
+    border-radius: 30px;
+    
+    padding-top: 11px;
+    padding-bottom: 11px;
+
+    padding-right: 15px;
+    padding-left: 15px;
+
+    font-weight: bold;
+    font-size: 12px;
+    
+    
+}

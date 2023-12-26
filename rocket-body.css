@@ -1,0 +1,92 @@
+.rocket-body {
+    background-color:#FFC351;
+    height: 740px;
+    padding-top: 20px;
+    position: relative;
+}
+
+
+.info-send-box {
+    background-color: #F3F3F3;
+    height: 440px;
+    margin-left: 100px;
+
+    width: 450px;
+    border-radius: 8px;
+    margin-top: 10px;
+
+    box-shadow: 0px 8px 35px 0px #BBA98E26;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    padding-bottom: 30px;
+
+}
+
+.name-input,
+.email-input,
+.message-input {
+    box-shadow: 0px 8px 35px 0px #BBA98E26;
+    background: #FFFFFF;  
+    margin-bottom: 10px; 
+    
+    border-radius: 5px;
+    border-width: 0px;
+}
+
+
+.name-input,
+.email-input,
+.message-input:focus, input:focus{
+    outline: none;
+} 
+    
+
+.name-input,
+.email-input {
+    height: 30px;
+    width: 350px;
+}
+
+
+.name-input::placeholder,
+.email-input::placeholder,
+.message-input::placeholder {
+    font-family: Circular Std;
+    color:#aaaaaa;
+    position: absolute;
+    left: 15px;
+}
+
+.message-input::placeholder {
+    top: 15px;
+}
+
+.send-button {
+    background-color: #3D4F5C;
+    color: white;
+    font-family: Circular Std;
+    
+    font-weight: normal;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 30px;
+
+    position: absolute;
+    left: 130px;
+    bottom: 30px;
+}
+
+.rocket-photo {
+    position: absolute;
+    bottom: 0px;
+    right: 200px;
+    
+    height: 440px;
+    }
